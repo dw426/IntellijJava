@@ -6,5 +6,7 @@ public class FlowEx1 {
         System.out.printf("x =%d일 때, 참인 것은 %n", x);
 
         if(x == 0) System.out.println("x==0");
+        if(x != 0) System.out.println("x != 0");
+
     }
 }
