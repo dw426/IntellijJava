@@ -15,7 +15,7 @@ public class FlowEx8 {
                 break;
 
             case '2' : case '4' :
-                System.out.println("당신은 여자입니다. ");
+                System.out.println("당신은 여자입니다.");
                 break;
             default:
                 System.out.println("유효하지 않은 주민번호입니다.");

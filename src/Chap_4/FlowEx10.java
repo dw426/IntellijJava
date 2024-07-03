@@ -8,8 +8,8 @@ public class FlowEx10 {
         System.out.print("당신의 점수를 입력하세요 ");
 
         Scanner scanner = new Scanner (System.in);
-        String tmp = scanner.nextLine();
-        score = Integer.parseInt(tmp);
+        String tmp = scanner.nextLine(); // 화면을 통해 입력받은 내용을 tmp에 저장
+        score = Integer.parseInt(tmp); // 입력받은 문자열 (tmp)를 숫자로 변환
 
         switch(score / 10){
             case 10:
